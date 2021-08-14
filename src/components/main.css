@@ -1,0 +1,59 @@
+.main-wrapper{
+    width: 1000px;
+    height:600px;
+    margin: auto;
+    background-color: rgb(8,57,91);
+    position: relative;    
+}
+
+.img-wrapper{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+}
+.name-wrapper{
+    width: 16%;
+    position: absolute;
+    top:20%;
+    left:15%
+}
+
+.log-wrapper{
+    width: 23%;
+    position: absolute;
+    top:40%;
+    left:12%
+}
+
+.btn-wrapper{
+    width: 30%;
+    height: 8%;
+    position: absolute;
+    top:72%;
+    left:12%;
+    background-color: rgb(8,57,91);
+    cursor: pointer;
+}
+
+.bar-wrapper{
+    width: 100%;
+    height: 8%;
+    box-sizing: border-box;
+    background-color:rgb(206,215,222);
+    position: absolute;
+    bottom: 0;
+    left:0;
+    padding-left: 25%;;
+    z-index: 1000
+    
+}
+.bar{
+    width:60%;
+}
+.img{
+    width: 100%;
+}
+.img.globe{
+    transform: rotate(45deg);
+}

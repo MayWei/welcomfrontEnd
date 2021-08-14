@@ -1,0 +1,22 @@
+.logo-container,.name-container{
+    margin: 60px auto;
+    width: 60%;
+}
+
+.logo-container img,.name-container img{
+    width: 100%;
+}
+
+button{
+    width:130px;
+    height:40px;
+    color:white;
+    background-color:rgb(85,198,215);
+    margin-left:50px;
+    font-size: 16px;
+}
+.name-container~p{
+    margin-left:50px;
+    color: white;
+    font-size: 12px; 
+}
