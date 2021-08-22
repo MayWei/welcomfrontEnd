@@ -5,7 +5,7 @@ import Sidertopic1 from './sidertopic1';
 
 const topics=['1','2','3','4','5']
 export default class Home extends Component {
-
+  state={};
   clickHandler=(index)=>{
     console.log(this.props);
     this.props.history.push(`/topics/${index+1}`);
