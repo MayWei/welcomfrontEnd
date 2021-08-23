@@ -3,6 +3,7 @@ import './accordion.css'
 
 export default class Accordion extends Component {
 
+  state={};
 
   clickHandler=()=>{
     this.props.history.goBack();
